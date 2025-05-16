@@ -1,0 +1,3 @@
+This folder contains a simple personal profile webpage created as an assignment.
+The main file is index.html.
+The webpage shows personal info, education, experience, and social media links.

@@ -1,0 +1,27 @@
+DFS(G)
+{
+for each vertex u=G->V
+{
+	u->color=white;
+}
+time=0;
+for each vertex u=G->V
+{
+if(u->color==white)
+DFS_visit(u)
+}
+
+DFS_Visit(u)
+U->color=gray;
+time=time+1;
+u->d=time;
+
+for ecah v=u->adj[];
+{
+if(v->color==white)
+DFS_Visit(v);
+}
+u->color=black;
+time=time+1;
+u->f=time;
+}
